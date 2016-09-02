@@ -1,0 +1,41 @@
+h1 {
+	position: fixed;
+	bottom: 0
+	right: 0;
+	width: 5000px;
+	background-color: #262626;
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+	align-self: center;
+}
+* {
+	background-color: #ccffcc;
+
+}
+h3 {
+	font-size: 30px;
+	font-family: 'Marmelad', sans-serif;
+	text-decoration: underline;
+	line-height: 200%;
+
+}
+p {
+font-size: 15px;
+	font-family: 'Arvo', serif;
+	line-height: 140%;
+}
+img {
+	float: left;
+}
+
+
+#person (max-width: 500px) {
+	display: flex;
+	flex-direction: column;
+}
+
+#person (min-width: 501px) {
+	display: flex;
+	flex-direction: row;
+}
