@@ -3,14 +3,14 @@ h1 {
 	bottom: 0
 	right: 0;
 	width: 5000px;
-	background-color: #262626;
-	color: white;
+	background-color: #ccffcc;
+	color: black;
 	font-family: 'Pacifico', cursive;
 	font-size: 50px;
 	align-self: center;
 }
 * {
-	background-color: #ccffcc;
+	background-color: #262626;
 
 }
 h3 {
@@ -33,6 +33,11 @@ img {
 	background-color: white;
 
 }
+img:hover {
+ 	-webkit-transform: scale(1.8);
+	-ms-transform: scale(1.8);
+	transform: scale(1.8);
+}
 .amy {
 	background-color: white;
 
@@ -54,5 +59,12 @@ img {
 	.total {
 		display: flex;
 		flex-direction: row;
+	}
+	* {
+		background-color:  #ccffcc;
+	}
+	h1 {
+		background-color: #262626;
+		color: white;
 	}
 }
